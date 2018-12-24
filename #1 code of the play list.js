@@ -1,14 +1,15 @@
-// var time = 0;
+var time = 0;
 
-// var timer = setInterval(function () {
-//     time += 2;
-//     console.log(time + ' seconds have passed');
-//     if (time > 5) {
-//         clearInterval(timer);
-//     }
-// }, 2000);  SUPER COOL TIMER THING done in video 4 on nodejs
+var timer = setInterval(function () {
+    time += 2;
+    console.log(time + ' seconds have passed');
+    if (time > 5) {
+        clearInterval(timer);
+    }
+}, 2000);
 
-console.log(__dirname)
+//WENT OVER SUPER COOL TIMER FEATURE IN VIDEO 4
+
 
 
 
