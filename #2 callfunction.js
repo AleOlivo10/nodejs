@@ -14,6 +14,12 @@ var sayBye = function() {   //this is an anonymous function. variable is being m
 sayBye();       //call on the function expression the same way as above normal function
 //function expressions are common in node.js and I should expect to see more of it
 
+function callFunction(func) {
+    func();
+}
+
+a;ilsdjf
+
 
 
 
