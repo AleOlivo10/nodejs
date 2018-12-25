@@ -1,6 +1,5 @@
 
 
-
 var counter = function(arr) {
     return "There are " + arr.length + " elements in this array.";
 }
@@ -8,7 +7,6 @@ var counter = function(arr) {
 console.log(counter(["alejandra", "john", "jayne"]));
 
 //this code us for a function that tells you how many items there are within an array
-
 
 
 
