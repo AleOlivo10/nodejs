@@ -20,9 +20,9 @@ var Person = function(name) {
 util.inherits(Person, events.EventEmitter); //Person parameter is the thing inheriting something, events.EventEmitter is the thing being inherited
 
 var james = new Person('james');
-var eleanor = new Person('eleanor');
+var ellen = new Person('ellen');
 var rita = new Person('rita');
-var people = [james, eleanor, rita];
+var people = [james, ellen, rita];
 
 people.forEach(function(person) {       //we're able to attach this function to each person because we activated this event listener onto Person on line 20
   person.on('speak', function(mssg) {
@@ -31,8 +31,8 @@ people.forEach(function(person) {       //we're able to attach this function to 
 });
 
 james.emit('speak', "hey dudes"); //this is how event is emitted and line 28-31 is how we attached it to each name
-eleanor.emit('speak', 'cowabunga');
-rita.emit('speak', 'coding is gnarly');
+ellen.emit('speak', 'cowabunga dudes');
+rita.emit('speak', 'coding is gnarly dudes');
 
 // var events = require('events');
 
