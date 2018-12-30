@@ -9,8 +9,8 @@ console.log(counter(["alejandra", "john", "jayne"]));
 
 
 
-
-
+lkszndgm
+awienflaerjg 
 
 
 
