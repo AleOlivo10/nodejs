@@ -11,7 +11,7 @@ console.log(counter(["alejandra", "john", "jayne"]));
 
 lkszndgm
 awienflaerjg 
-
+jjNjsfjlkd novel ideal novel ida oienovel idea
 
 
 
