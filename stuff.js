@@ -45,7 +45,7 @@ module.exports = {
     pi: pi
 };
 
-//this one didnt work for me
+//this one didnt work for me. mothod 1 and 2 work
 
 
 // // This file is completely a module for getmodule.js file.
