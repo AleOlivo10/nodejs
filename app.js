@@ -36,7 +36,10 @@ fs.readFile('input.txt', 'utf8', function(error, data) {
 //the writeFile function is copying the contents of input.txt to a new file being created called writeMe.txt
 //'data' is the contents of the input.txt file
 
+//--------------------------------------------
+//HOW TO DELETE FILES USING NODE
 
+fs.unlink('writeMe.txt');
 
 
 
